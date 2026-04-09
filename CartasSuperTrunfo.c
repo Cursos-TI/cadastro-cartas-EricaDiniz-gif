@@ -26,6 +26,12 @@ int main() {
     int pontosTuristicos2 = 18;
 
   // Área para entrada de dados
+  printf("=== Cadastro da Carta 1 ===\n");
+cadastrarCarta(&estado1, codigo1, nomeCidade1, &populacao1, &area1, &pib1, &pontosTuristicos1);
+
+printf("\n=== Cadastro da Carta 2 ===\n");
+cadastrarCarta(&estado2, codigo2, nomeCidade2, &populacao2, &area2, &pib2, &pontosTuristicos2);
+
  
   // Área para exibição dos dados da cidade
 printf("===== CARTA 1 =====\n");
