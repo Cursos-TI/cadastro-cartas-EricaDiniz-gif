@@ -24,7 +24,7 @@ float area2;
 float pib2;
 int pontosTuristicos2;
 
-// Entrada de dados da carta 1
+// Entrada de dados da carta 1 
 printf("=== Cadastro da Carta 1 ===\n");
 printf("Estado (uma letra): ");
 scanf(" %c", &estado1);
@@ -47,7 +47,7 @@ scanf("%f", &pib1);
 printf("Pontos turisticos: ");
 scanf("%d", &pontosTuristicos1);
 
-// Entrada de dados da carta 2
+// Entrada de dados da carta 2 
 printf("\n=== Cadastro da Carta 2 ===\n");
 printf("Estado (uma letra): ");
 scanf(" %c", &estado2);
